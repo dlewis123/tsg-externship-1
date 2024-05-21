@@ -12,14 +12,14 @@ def basicCalculator(operation, num1, num2):
     match operation:
         #if operation = ADD, return the sum
         case Operation.ADD:
-            print("")
+            result = num1 + num2
         case Operation.SUBTRACT:
-            print("")
+            result = num1 - num2
         case Operation.MULTIPLY:
-            print("")
+            result = num1 * num2
         case Operation.DIVIDE:
             if num2 == 0:
-                print("")
+                print("Can't divide by 0")
             else:
                 result = num1 / num2
     return result
