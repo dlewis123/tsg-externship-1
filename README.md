@@ -1,2 +1,2 @@
 # tsg-externship-1
-This repository is the first exercise in the TSG Git Workshop
+This repository is for the Collaborative Git Exercise - Merge Conflicts 
