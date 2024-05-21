@@ -4,7 +4,7 @@ enum Operation
 {
     ADD, SUBTRACT, MULTIPLY, DIVIDE
 }
-public class Test1 {
+public class javaCalculator {
 
     public static double basicCalculator(final Operation operation, final int num1, final int num2){
         double result = 0;
